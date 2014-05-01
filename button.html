@@ -10,42 +10,43 @@
 	</head>
 	<body>
 		<h1> Buttons</h1>
-		<p> It's just a button</p>
-		<p> Just click the Button</p>
-		<p> Click It NOWWW</p>
-		<p id="foo"> just a line</p>
-		<p id="lala"> what?</p>	
+		<p class="lala"> It's just a button</p>
+		<p class="foo"> Just click the Button</p>
+		<p class="foo"> Click It NOWWW</p>
+		<p class="foo"> just a line</p>
+		<p class="lala"> what?</p>	
 		<input type="button" onclick="changeText()" value="Try me" />
 		<input type="button" onclick="purple()" value="Push" />
-		<input type="button" onclick="White()" value="Smack" />
+		<input type="button" onclick="white()" value="Smack" />
 		<input type="button" onclick="Lucky()" value="You love my buttons" />
 		<input type="button" onclick="Wrong()" value="Whos that?" />
 
 		<script type="text/javascript">
 			function changeText() {
-				$("#foo").html("LOL");
-				$("#foo").fadeOut();	
+				$(".foo").html("LOL");
+				$(".foo").fadeOut();	
 			}
 
 			function purple() {
-				$("#foo").html("Just keep swimming");
-				$("#foo").fadeIn();	
-			}
+                                $(".foo").html("Just keep swimming");
+                                $(".foo").fadeIn();
+                        }
 
-			function White() {
-				$("#lala").html("I like texing people");
-				$("#lala").("ul").css("border", "solid 1px #ccc")();	
-			}
+			 function white() {
+                                $(".lala").html("I like texing people");
+                                $(".lala").css("border", "solid 1px #ccc")();
+                        }
 
-			function Lucky() {
-				$("#lala").html("Stop");
-				$("#lala").("p").css("width", "400px").css("color", "pink")();	
-			}
+                        function Lucky() {
+                                $(".lala").html("Stop");
+                                $(".lala").css("width", "400px").css("color", "pink")();
+                        }
 
-			function Wrong() {
-				$("#foo").html("Go");
-				$("#foo").("#myElement").css("color", "blue")();	
-			}
+
+                        function Wrong() {
+                                $(".foo").html("Go");
+                                $(".foo").css("color", "blue")();
+                        }
 		</script>
 	</body>
 </html>
