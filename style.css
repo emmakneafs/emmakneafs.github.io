@@ -1,0 +1,23 @@
+<style media="screen" type="text/css">
+        @import url(http://fonts.googleapis.com/css?family=Cinzel:400,700,900);
+        body {
+        font-family: Cinzel;
+        font-size: 16pt;
+        line-height: 1.5;
+        background-color: #EEE;
+        color: #333;
+        }
+
+        h1 {
+        font-weight: 900;
+        }
+
+        h2 {
+        font-weight: 700;
+        color: #999;
+        }
+
+        p {
+        font-weight: 400;
+        }
+        </style>
