@@ -1,0 +1,10 @@
+body {
+  font-family: Helvetica;
+  font-size: 16pt;
+  line-height: 1.5;
+  margin: 2em;
+  background-color: #EEE;
+  color: #333
+}
+
+img { width: 300px; }
