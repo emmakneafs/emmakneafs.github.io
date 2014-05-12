@@ -2,32 +2,11 @@
 
 <html lang="en">
     <head>
-        <style media="screen" type="text/css">
-        @import url(http://fonts.googleapis.com/css?family=Cinzel:400,700,900);
-        body {
-        font-family: Cinzel;
-        font-size: 16pt;
-        line-height: 1.5;
-        background-color: #EEE;
-        color: #333;
-        }
-
-        h1 {
-        font-weight: 900;
-        }
-
-        h2 {
-        font-weight: 700;
-        color: #999;
-        }
-
-        p {
-        font-weight: 400;
-        }
-        </style>
-        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8" />
         <title>About Me</title>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script type="text/javascript" src="/Users/ekneafsey/code/web/code.js"> </script>       
     </head>
     <body>
         <h1> My name is Emma Kneafsey </h1>
@@ -68,20 +47,9 @@
 	</ol>
                 <h1> Buttons</h1>
                 <p class="foo">I like buttons</p>
-                <input type="button" onclick="white()" value="click me" />
-                <input type="button" onclick="purple()" value="do it"/>
-
-
-                <script type="text/javascript">
-                        function white() {
-                                $(".foo").html("It's just a Button");
-                                $(".foo").fadeOut();
-                        }
-
-                        function purple() {
-                                $(".foo").html("It came back!");
-                                $(".foo").fadeIn();
-                        }
+                <input class="myButton" type="button" onclick="white()" value="click me" />
+                <input class="myButton" type="button" onclick="purple()" value="do it"/>
+		
         </script>
     </body>
 </html
