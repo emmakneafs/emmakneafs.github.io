@@ -20,6 +20,9 @@
         font-weight: 400;
         }
 
+img {
+	width:320px;
+	}
 .myButton {
 	-moz-box-shadow: 0px 10px 14px -7px #e67a73;
 	-webkit-box-shadow: 0px 10px 14px -7px #e67a73;
