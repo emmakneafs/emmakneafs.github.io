@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title> Guessing Game</title>
+	</head>
+	<body>
+		<script>
+			var number = Math.floor((Math.random()*10)+1);
+			var a =  prompt("Do you like to guess numbers? Guess a number between 1-10.");
+			while (a != number) {
+		  	    if ( a < number) {
+				var a = prompt("You guessed to low! Guess again.");
+		  	    }
+		            else { 
+				var a = prompt("You guessed to high. PLease guess again.");
+		  	    } 
+			};
+		  	if ( a == number) {
+				alert("Yay You Won!") 
+		  	} 
+		</script>
+	</body>
+</html>
+
